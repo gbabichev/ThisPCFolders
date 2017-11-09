@@ -49,10 +49,10 @@
             this.textBox1.Location = new System.Drawing.Point(15, 30);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(250, 196);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "This program is used to add / remove the default folders in Windows 10. \r\n\r\nThis " +
-    "has been tested on Windows 10 1607, and 1703";
+            this.textBox1.TabIndex = 2;
+            this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
             // linkLabel1
             // 
